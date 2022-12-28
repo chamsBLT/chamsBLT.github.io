@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f6bfecc-73fb-4f71-bf72-f4598a6a8132" name="Changes" comment="" />
+    <list default="true" id="9f6bfecc-73fb-4f71-bf72-f4598a6a8132" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/timeline.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/timeline.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2JE0KX9WD2CQDVHSvmxvd3B3vgA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,6 +50,8 @@
       <workItem from="1672139424154" duration="5210000" />
       <workItem from="1672146164985" duration="56000" />
       <workItem from="1672146224783" duration="68000" />
+      <workItem from="1672170029272" duration="2414000" />
+      <workItem from="1672228824181" duration="2511000" />
     </task>
     <servers />
   </component>
