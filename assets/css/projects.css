@@ -1,0 +1,92 @@
+.project {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    max-width: 90%;
+    margin: 20px;
+    overflow: hidden;
+    width: 90%;
+}
+
+.project-preview-o {
+    display: grid;
+    background-color: #000;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-preview-e {
+    display: grid;
+    background-color: #1bf1a1;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-info {
+    padding: 30px;
+    position: relative;
+    width: 90%;
+}
+
+#CD {
+    width: 25%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#CI {
+    width: 25%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#CLOUD {
+    width: 25%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#FITNESS {
+    width: 25%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ECOM {
+    width: 25%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#MED {
+    width: 25%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#GAME {
+    width: 25%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

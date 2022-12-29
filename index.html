@@ -29,13 +29,14 @@
     <!--====== Style css ======-->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/timeline.css">
+    <link rel="stylesheet" href="assets/css/projects.css">
 
 
 </head>
 
 <body>
 
-<!--====== PRELOADER PART START ======-->
+<!--====== PRELOADER PART START oncontextmenu="return false"======-->
 
 <div class="preloader">
     <div class="loader_34">
@@ -299,7 +300,8 @@
                             </div> <!-- cd-timeline-img -->
                             <div class="cd-timeline-content">
                                 <h2>Computer Science</h2>
-                                <span class="cd-date" style="float: right"><i class="lni-map-marker"></i> Ariana, TUN</span>
+                                <span class="cd-date" style="float: right"><i
+                                        class="lni-map-marker"></i> Ariana, TUN</span>
                                 <br><br>
                                 <p>The Private Higher School of Engineering and Technology - <b>ESPRIT</b></p>
                                 <p style="text-align: center"><b>Major :</b> IT Architecture & Cloud Computing ☁</p>
@@ -359,84 +361,127 @@
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <div class="section-title text-center pb-30">
-                    <h2 class="title">My Services</h2>
-                    <p>Nunc id dui at sapien faucibus fermentum ut vel diam. Nullam tempus, nunc id efficitur sagittis,
-                        urna est ultricies eros, ac porta sem turpis quis leo.</p>
+                    <h2 class="title">My Projects</h2>
                 </div> <!-- section title -->
             </div>
         </div> <!-- row -->
         <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-6 col-sm-8">
-                <div class="single-service text-center mt-30">
-                    <div class="service-icon">
-                        <i class="lni-code-alt"></i>
+            <div class="col-lg-10">
+                <div class="projects-container">
+                    <div class="card mb-3">
+                        <div style="background: #0b0b0b;" class="card-img-top">
+                            <img id="CD" src="assets/images/cd.png">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title" style="text-align: center">CD Project</h5>
+                            <p class="card-text">Setting up a <b>CD pipeline</b> for a front-end application (Angular).<br><br>
+                                <b>Tools / Technologies :</b><br>Jenkins · Git · Docker · Terraform · Ansible
+                            </p><br><br>
+                            <p class="card-footer" style="text-align: center"><small class="text-muted"><i
+                                    class="lni-calendar"></i> Oct 2022 - Dec 2022</small></p>
+                        </div>
                     </div>
-                    <div class="service-content">
-                        <h4 class="service-title"><a href="#">Web Design</a></h4>
-                        <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta
-                            sunt.</p>
+                    <div class="card mb-3">
+                        <div style="background: #1bf1a1;" class="card-img-top">
+                            <img id="CI" src="assets/images/ci.png">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title" style="text-align: center">CI Project</h5>
+                            <p class="card-text">Setting up a <b>CI pipeline</b> for an N-tier data application (Spring Boot +
+                                Angular + MySQL).<br><br>
+                                <b>Tools / Technologies :</b><br>Jenkins · Git · JUnit · SonarQube · Nexus · Docker ·
+                                Docker-compose
+                            </p><br><br>
+                            <p class="card-footer" style="text-align: center"><small class="text-muted"><i
+                                    class="lni-calendar"></i> Sep 2022 - Oct 2022</small></p>
+                        </div>
                     </div>
-                </div> <!-- single service -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-8">
-                <div class="single-service text-center mt-30">
-                    <div class="service-icon">
-                        <i class="lni-color-pallet"></i>
+                    <div class="card mb-3">
+                        <div style="background: #000;" class="card-img-top">
+                            <img id="CLOUD" src="assets/images/cloud.png">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title" style="text-align: center">Consomi Tounsi</h5>
+                            <p class="card-text">Consommi Tounsi is a <b>cloud based product management platform</b> dedicated
+                                for selling 100%
+                                Tunisian products.<br><br>
+                                The project consists of 4 phases :<br>
+                                • Design : Extract functional features and technical constraints from
+                                specifications.<br>
+                                • Setting up the Infrastructure : Install and configure the deployment
+                                infrastructure.<br>
+                                • Software Deployment Environment : Deploy, configure and maintain Openshift Origin
+                                cluster
+                                using an automation tool.<br>
+                                • Application Development and deployment : Software development and deployment.<br><br>
+                                <b>Tools / Technologies :</b><br>OpenStack · OpenShift · Ansible · Azure Kubernetes
+                                Service (AKS) · Git · MySQL · Spring Boot · Angular
+                            </p><br><br>
+                            <p class="card-footer" style="text-align: center"><small class="text-muted"><i
+                                    class="lni-calendar"></i> Nov 2021 - May 2022</small></p>
+                        </div>
                     </div>
-                    <div class="service-content">
-                        <h4 class="service-title"><a href="#contact">Graphic Design</a></h4>
-                        <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta
-                            sunt.</p>
+                    <div class="card mb-3">
+                        <div style="background: #1bf1a1;" class="card-img-top">
+                            <img id="FITNESS" src="assets/images/fitness.png">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title" style="text-align: center">Sportinus</h5>
+                            <p class="card-text">The project consisted in the development of a <b>web, desktop and mobile
+                                applications</b> called "Sportunus" in order to help the user choose the right exercice
+                                routines, calories tracking and meal preparing.<br><br>
+                                <b>Tools / Technologies :</b><br>MySQL · JavaFX · Symfony · CodeName One
+                            </p><br><br>
+                            <p class="card-footer" style="text-align: center"><small class="text-muted"><i
+                                    class="lni-calendar"></i> Jan 2021 - Jun 2021</small></p>
+                        </div>
                     </div>
-                </div> <!-- single service -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-8">
-                <div class="single-service text-center mt-30">
-                    <div class="service-icon">
-                        <i class="lni-mobile"></i>
+                    <div class="card mb-3">
+                        <div style="background: #0b0b0b;" class="card-img-top">
+                            <img id="ECOM" src="assets/images/cd.png">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title" style="text-align: center">Benna.tn</h5>
+                            <p class="card-text">The project consisted in the development of and <b>e-commerce website</b>
+                                called "Benna.tn".<br><br>
+                                <b>Tools / Technologies :</b><br>HTML5 · CSS · PHP5 · JS
+                            </p><br><br>
+                            <p class="card-footer" style="text-align: center"><small class="text-muted"><i
+                                    class="lni-calendar"></i> Jan 2020 - Jun 2020</small></p>
+                        </div>
                     </div>
-                    <div class="service-content">
-                        <h4 class="service-title"><a href="#">App Design</a></h4>
-                        <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta
-                            sunt.</p>
+                    <div class="card mb-3">
+                        <div style="background: #1bf1a1;" class="card-img-top">
+                            <img id="MED" src="assets/images/med.png">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title" style="text-align: center">Smart Medical Center</h5>
+                            <p class="card-text">The project consisted in the development of <b>desktop application</b> named
+                                "Smart Medical
+                                Center" in order to facilitate the management of the patients medical charts, medical
+                                staff and
+                                also waiting room monitoring.<br><br>
+                                <b>Tools / Technologies :</b><br>MySQL · C++ · Arduino
+                            </p><br><br>
+                            <p class="card-footer" style="text-align: center"><small class="text-muted"><i
+                                    class="lni-calendar"></i> Sep 2019 - Jan 2020</small></p>
+                        </div>
                     </div>
-                </div> <!-- single service -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-8">
-                <div class="single-service text-center mt-30">
-                    <div class="service-icon">
-                        <i class="lni-vector"></i>
+                    <div class="card mb-3">
+                        <div style="background: #0b0b0b;" class="card-img-top">
+                            <img id="GAME" src="assets/images/game.png">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title" style="text-align: center">The Legacy of Eldrin</h5>
+                            <p class="card-text">The project consisted in the development of a <b>2D iso RPG video game</b> and
+                                a <b>gaming controller</b> from scratch.<br><br>
+                                <b>Tools / Technologies :</b><br>Adobe photoshop · Adobe illustrator · SDL · C · Arduino
+                            </p><br><br>
+                            <p class="card-footer" style="text-align: center"><small class="text-muted"><i
+                                    class="lni-calendar"></i> Jan 2018 - Jun 2018</small></p>
+                        </div>
                     </div>
-                    <div class="service-content">
-                        <h4 class="service-title"><a href="#">Illustration Design</a></h4>
-                        <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta
-                            sunt.</p>
-                    </div>
-                </div> <!-- single service -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-8">
-                <div class="single-service text-center mt-30">
-                    <div class="service-icon">
-                        <i class="lni-website"></i>
-                    </div>
-                    <div class="service-content">
-                        <h4 class="service-title"><a href="#">Web Development</a></h4>
-                        <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta
-                            sunt.</p>
-                    </div>
-                </div> <!-- single service -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-8">
-                <div class="single-service text-center mt-30">
-                    <div class="service-icon">
-                        <i class="lni-support"></i>
-                    </div>
-                    <div class="service-content">
-                        <h4 class="service-title"><a href="#">Consultancy and Support</a></h4>
-                        <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta
-                            sunt.</p>
-                    </div>
-                </div> <!-- single service -->
+                </div>
             </div>
         </div> <!-- row -->
     </div> <!-- container -->
