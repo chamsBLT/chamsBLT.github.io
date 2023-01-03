@@ -75,6 +75,14 @@
     margin-right: auto;
 }
 
+#JTR {
+    width: 25%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #MED {
     width: 25%;
     height: auto;
@@ -90,3 +98,49 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+/* CSS */
+.skill {
+    background-color: #fff;
+    border: 1px solid #1bf1a1;
+    border-radius: 4px;
+    color: #000;
+    cursor: pointer;
+    height: 36px;
+    line-height: 27px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: pre;
+    margin-bottom: 1%;
+}
+
+.skill:hover {
+    border-color: #dadce0;
+    box-shadow: rgba(27, 241, 161, 1) 0 1px 1px;
+    color: #202124;
+}
+
+.skill:focus {
+    border-color: #1bf1a1;
+    outline: none;
+}
+
+#skills{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#familiar{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
