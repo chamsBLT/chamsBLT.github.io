@@ -3,6 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="9f6bfecc-73fb-4f71-bf72-f4598a6a8132" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/b-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/b-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/b-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/bolg-detailes/bolg-detailes.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/bolg-detailes/cm-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/bolg-detailes/cm-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/bolg-detailes/quote-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/bolg-detailes/quote-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/bolg-detailes/sidebar-post/p-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/bolg-detailes/sidebar-post/p-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/bolg-detailes/sidebar-post/p-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/logo-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/page-banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/page-banner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/work/w-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/work/w-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/work/w-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/work/w-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/work/w-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/work/w-6.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +90,7 @@
       <workItem from="1672577182712" duration="8526000" />
       <workItem from="1672658613501" duration="10845000" />
       <workItem from="1672699437667" duration="5851000" />
-      <workItem from="1672744974033" duration="1683000" />
+      <workItem from="1672744974033" duration="3648000" />
     </task>
     <servers />
   </component>
